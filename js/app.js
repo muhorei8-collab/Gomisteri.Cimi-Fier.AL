@@ -9,13 +9,13 @@
 
 const BUSINESS = {
   name: "Gomisteri Cimi",
-  phone: "069 350 551",
-  phoneHref: "tel:069350551",
+  phone: "069 350 5511",
+  phoneHref: "tel:0693505511",
   email: "ladih3310@gmail.com",
   address: "PG3R+RQ, Zhupan, Albania",
   mapsUrl: "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent("PG3R+RQ, Zhupan, Albania"),
   // I ndërtuar nga numri i telefonit (0 hiqet, shtohet kodi i vendit +355)
-  whatsappUrl: "https://wa.me/355" + "069350551".replace(/^0/, ""),
+  whatsappUrl: "https://wa.me/355" + "0693505511".replace(/^0/, ""),
   // e diela = 0, e hëna = 1, ... e shtunën = 6 (format i JavaScript-it)
   hours: {
     1: { open: "08:00", close: "18:30" }, // e hënë
